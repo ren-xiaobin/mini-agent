@@ -1,6 +1,8 @@
 # Mini agent based on kimi-k3
 
-A minimal coding agent powered exclusively by the Kimi Open Platform API. Single Python file, zero third-party dependencies. The core idea is simple: Kimi decides what to do, the local tools execute it, and the results are sent back to Kimi.
+A minimal coding agent powered exclusively by the Kimi Open Platform API. Single Python file, zero third-party dependencies.
+
+The core idea is simple: Kimi decides what to do, the local tools execute it, and the results are sent back to Kimi.
 
 ![screenshot](example.jpg)
 
@@ -81,8 +83,8 @@ local tool execution
     ...
 ```
 
-The conversation history is the agent's memory.  
-Each model response may either contain normal text or request one or more tool calls.  
+The conversation history is the agent's memory. Each model response may either contain normal text or request one or more tool calls.  
+
 The program executes those tools and sends the results back to Kimi until the model decides the task is complete.
 
 ## Commands
@@ -161,3 +163,7 @@ while True:
 ```
 
 The model provides the reasoning, while this program provides the execution loop and a small set of practical coding tools.
+
+## Acknowledgements
+- https://github.com/1rgs/nanocode
+- https://github.com/SWE-agent/mini-SWE-agent

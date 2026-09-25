@@ -1,4 +1,4 @@
-# Minimal agent based on the kimi-k3 model
+# Mini agent based on kimi-k3
 
 A minimal coding agent powered exclusively by the Kimi Open Platform API. Single Python file, zero third-party dependencies. The core idea is simple: Kimi decides what to do, the local tools execute it, and the results are sent back to Kimi.
 
